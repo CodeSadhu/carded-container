@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class CardedContainer extends StatefulWidget {
-  const CardedContainer({
+class CardyContainer extends StatefulWidget {
+  const CardyContainer({
     super.key,
     this.blurRadius = 5,
     this.spreadRadius = 0.0,
@@ -44,10 +44,10 @@ class CardedContainer extends StatefulWidget {
   final Clip clipBehavior;
 
   @override
-  State<CardedContainer> createState() => _CardedContainerState();
+  State<CardyContainer> createState() => _CardedContainerState();
 }
 
-class _CardedContainerState extends State<CardedContainer> {
+class _CardedContainerState extends State<CardyContainer> {
   @override
   Widget build(BuildContext context) {
     return Container(

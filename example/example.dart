@@ -1,4 +1,4 @@
-import 'package:carded/carded.dart';
+import 'package:cardy/carded.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
             vertical: 50,
             horizontal: 10,
           ),
-          child: const CardedContainer(
+          child: const CardyContainer(
             blurRadius: 10,
             padding: EdgeInsets.all(10),
             child: Text(

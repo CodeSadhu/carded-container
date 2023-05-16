@@ -1,7 +1,7 @@
-name: carded
+name: cardy
 description: A replacement for the default Card widget (for shadows on all edges)
 version: 0.0.1
-homepage: https://github.com/CodeSadhu/carded-container
+homepage: https://github.com/CodeSadhu/cardy
 
 environment:
   sdk: '>=3.0.0 <4.0.0'

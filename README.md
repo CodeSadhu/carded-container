@@ -11,20 +11,20 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-# CardedContainer
+# Cardy
 
-The Card widget in Flutter applies shadows to the bottom and left of the card. CardedContainer is instead a simple Card with shadows on all four edges.
+The Card widget in Flutter applies shadows to the bottom and left of the card. CardyContainer is instead a simple Card with shadows on all four edges.
 
 
 ## Usage
 
-Just use CardedContainer instead of Container/Card wherever you want to apply shadows
+Just use CardyContainer instead of Container/Card wherever you want to apply shadows
 on all four edges. The widget contains all properties of a Container, so styling
 and customization is similar to that of a Container.
 
 
 ```dart
-CardedContainer(
+CardyContainer(
     blurRadius: 8,
     padding: EdgeInsets.all(10),
     child: Text(
