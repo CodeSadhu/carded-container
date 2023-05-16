@@ -11,29 +11,31 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages).
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+The Card widget in Flutter applies shadows to the bottom and left of the card. CardedContainer is instead a simple Card with shadows on all four edges.
 
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+Just use CardedContainer instead of Container/Card wherever you want to apply shadows
+on all four edges. The widget contains all properties of a Container, so styling
+and customization is similar to that of a Container.
+
 
 ```dart
-const like = 'sample';
+CardedContainer(
+    blurRadius: 8,
+    padding: EdgeInsets.all(10),
+    child: Text(
+        'This is a container with shadows on all four edges',
+        style: TextStyle(
+        fontSize: 18,
+        ),
+    ),
+)
 ```
 
-## Additional information
+### Shadow customization
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+- If you want the shadow to be deeper (an increase in elevation), increase the blurRadius (5 by default)
+- Change the shadow color by using the shadowColor property
+- Change how far the shadow is cast by increasing the spreadRadius property
