@@ -1,4 +1,4 @@
-import 'package:cardy/carded.dart';
+import 'package:carded/carded.dart';
 import 'package:flutter/material.dart';
 
 void main() {
