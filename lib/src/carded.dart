@@ -4,7 +4,7 @@ class CardyContainer extends StatefulWidget {
   const CardyContainer({
     super.key,
     this.blurRadius = 5,
-    this.spreadRadius = 0.0,
+    this.spreadRadius = 2.0,
     this.shadowColor,
     this.blurStyle = BlurStyle.normal,
     this.shadowOffset = Offset.zero,
@@ -55,6 +55,7 @@ class _CardedContainerState extends State<CardyContainer> {
       height: widget.height,
       alignment: widget.alignment,
       decoration: BoxDecoration(
+        color: widget.color,
         borderRadius: widget.borderRadius,
         boxShadow: [
           BoxShadow(
@@ -67,7 +68,6 @@ class _CardedContainerState extends State<CardyContainer> {
         ],
       ),
       clipBehavior: widget.clipBehavior,
-      color: widget.color,
       constraints: widget.constraints,
       foregroundDecoration: widget.foregroundDecoration,
       key: widget.key,

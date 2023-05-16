@@ -38,6 +38,5 @@ CardyContainer(
 
 ### Shadow customization
 
-- If you want the shadow to be deeper (an increase in elevation), increase the blurRadius (5 by default)
 - Change the shadow color by using the shadowColor property
 - Change how far the shadow is cast by increasing the spreadRadius property
