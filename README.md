@@ -15,7 +15,7 @@ and the Flutter guide for
 
 The Card widget in Flutter applies shadows to the bottom and left of the card. CardyContainer is instead a simple Card with shadows on all four edges.
 
-<img src="https://github.com/CodeSadhu/cardy/blob/main/screenshots/screenshot.png" align="center" height=700>
+<img src="https://raw.githubusercontent.com/CodeSadhu/cardy/main/screenshots/screenshot.png" align="center" height=700>
 
 ## Usage
 

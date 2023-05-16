@@ -16,3 +16,7 @@
 ## 0.0.3
 
 * Fixed screenshot not visible in README
+
+## 0.0.3+1
+
+* Updated screenshot path for pub.dev
