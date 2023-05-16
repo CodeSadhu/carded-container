@@ -12,3 +12,7 @@
 * Increased the default spreadRadius to 2.0 for a better visible shadow
 * Added screenshot demonstrating the difference between Container, Card and CardyContainer shadows
 * Updated README
+
+## 0.0.3
+
+* Fixed screenshot not visible in README
